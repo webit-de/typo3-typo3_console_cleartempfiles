@@ -1,0 +1,26 @@
+{
+  "name": "webit/typo3_console_addons",
+  "description": "Addons to the typo3_console extension",
+  "license": "GPL-2.0+",
+  "type": "typo3-cms-extension",
+  "authors": [
+    {
+      "name": "Lidia Demin",
+      "email": "demin@webit.de",
+      "role": "Developer",
+      "homepage": "http://webit.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "typo3/cms-core": "^8.7",
+    "helhum/typo3-console": "^4.6"
+  },
+  "autoload": {
+    "psr-4": {"Webit\\Typo3ConsoleAddons\\": "Classes/"}
+  },
+  "replace": {
+    "typo3_console_addons": "self.version",
+    "typo3-ter/typo3_console_addons": "self.version"
+  }
+}
