@@ -52,7 +52,7 @@ class TempFilesCommandController extends CommandController
      * Truncates the table sys_file_processedfile and
      * then empties the _processed_ folder if successful
      */
-    public function emptyProcessedFolderCommand()
+    public function emptyProcessedCommand()
     {
         if (is_dir($this->processedFolderPath)) {
             $this->outputLine(sprintf('Truncating table sys_file_processedfile ...'));
@@ -80,7 +80,7 @@ class TempFilesCommandController extends CommandController
     /**
      * Empties the typo3temp folder
      */
-    public function emptyTypo3TempFolderCommand()
+    public function emptyTypo3TempCommand()
     {
         if (is_dir($this->typo3TempFolderPath)) {
             $this->outputLine(sprintf('Removing files and folders from: %s ...', $this->typo3TempFolderPath));
