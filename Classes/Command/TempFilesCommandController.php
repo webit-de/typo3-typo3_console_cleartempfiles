@@ -43,6 +43,12 @@ class TempFilesCommandController extends CommandController
     protected $processedFolderPath = PATH_site . 'fileadmin/_processed_';
 
     /**
+     * Path to the 'typo3temp' folder
+     * @var string
+     */
+    protected $typo3TempFolderPath = PATH_site . 'typo3temp/';
+
+    /**
      * Truncates the table sys_file_processedfile and
      * then empties the _processed_ folder if successful
      */
@@ -67,7 +73,23 @@ class TempFilesCommandController extends CommandController
             }
 
         } else {
-            $this->outputLine(sprintf('Invalid path to processed folder. Please check this command.'));
+            $this->outputLine(sprintf('Invalid path to _processed_ folder. Please check this command.'));
+        }
+    }
+
+    /**
+     * Empties the typo3temp folder
+     */
+    public function emptyTypo3TempFolderCommand()
+    {
+        if (is_dir($this->typo3TempFolderPath)) {
+            $this->outputLine(sprintf('Removing files and folders from: %s ...', $this->typo3TempFolderPath));
+            // No need to check the return value, because $this->typo3TempFolderPath was checked before
+            // If any files or directories can't be deleted an exception will occur
+            $this->recursiveRemoveDirectory($this->typo3TempFolderPath, false);
+            $this->outputLine(sprintf('Successfully removed files and folders from: %s', $this->typo3TempFolderPath));
+        } else {
+            $this->outputLine(sprintf('Invalid path to typo3temp folder. Please check this command.'));
         }
     }
 
