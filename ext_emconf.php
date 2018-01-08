@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'typo3_console_cleartempfiles',
-    'description' => 'Clear temporary files using TYPO3 console',
+    'description' => 'Clear temporary files using TYPO3 Console',
     'category' => 'plugin',
     'author' => 'Lidia Demin',
     'author_email' => 'demin@webit.de',
