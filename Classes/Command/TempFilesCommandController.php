@@ -1,6 +1,6 @@
 <?php
 
-namespace Webit\Typo3ConsoleAddons\Command;
+namespace WebitDe\Typo3ConsoleCleartempfiles\Command;
 
 /***************************************************************
  *  Copyright notice
@@ -100,7 +100,6 @@ class TempFilesCommandController extends CommandController
      * @param bool      $removeParentDirectory  Flag whether the parent directory should be removed as well
      * @return boolean
      */
-
     public function recursiveRemoveDirectory($parentDirectoryPath, $removeParentDirectory = false)
     {
         if (is_dir($parentDirectoryPath)) {

@@ -1,18 +1,8 @@
 <?php
 
-/***************************************************************
- * Extension Manager/Repository config file for ext: "sys_log_watcher_task"
- *
- * Manually generated 2017-07-31
- *
- * Manual updates:
- * Only the data in the array - anything else is removed by next write.
- * "version" and "dependencies" must not be touched!
- ***************************************************************/
-
 $EM_CONF[$_EXTKEY] = array(
-    'title' => 'typo3_console_addons',
-    'description' => 'Addons to the typo3_console extension',
+    'title' => 'typo3_console_cleartempfiles',
+    'description' => 'Clear temporary files using TYPO3 console',
     'category' => 'plugin',
     'author' => 'Lidia Demin',
     'author_email' => 'demin@webit.de',

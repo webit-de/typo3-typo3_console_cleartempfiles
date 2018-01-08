@@ -1,6 +1,6 @@
 {
-  "name": "webit/typo3_console_addons",
-  "description": "Addons to the typo3_console extension",
+  "name": "webit-de/typo3_console_cleartempfiles",
+  "description": "Clear temporary files using TYPO3 console",
   "license": "GPL-2.0+",
   "type": "typo3-cms-extension",
   "authors": [
@@ -17,10 +17,10 @@
     "helhum/typo3-console": "^4.6"
   },
   "autoload": {
-    "psr-4": {"Webit\\Typo3ConsoleAddons\\": "Classes/"}
+    "psr-4": {"WebitDe\\Typo3ConsoleCleartempfiles\\": "Classes/"}
   },
   "replace": {
-    "typo3_console_addons": "self.version",
-    "typo3-ter/typo3_console_addons": "self.version"
+    "typo3_console_cleartempfiles": "self.version",
+    "typo3-ter/typo3_console_cleartempfiles": "self.version"
   }
 }
