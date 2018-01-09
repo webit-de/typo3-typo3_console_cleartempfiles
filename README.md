@@ -18,6 +18,13 @@ Installation
 
 Packagist Entry https://packagist.org/packages/webit-de/typo3_console_cleartempfiles/
 
+Usage
+-----
+
+To empty the »typo3temp« folder:
+
+    ./vendor/bin/typo3cms tempfiles:emptytypo3temp
+
 Source
 ------
 
