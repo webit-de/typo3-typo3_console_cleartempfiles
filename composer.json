@@ -3,14 +3,6 @@
   "description": "Clear temporary files using TYPO3 Console",
   "license": "GPL-2.0-or-later",
   "type": "typo3-cms-extension",
-  "authors": [
-    {
-      "name": "Lidia Demin",
-      "email": "demin@webit.de",
-      "role": "Developer",
-      "homepage": "http://webit.de"
-    }
-  ],
   "require": {
     "php": ">=7.0.0",
     "typo3/cms-core": "^8.7",
