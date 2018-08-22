@@ -4,7 +4,7 @@ TYPO3 Console Clear Temp Files
 This TYPO3 patch extension extends the [TYPO3 Console](https://github.com/TYPO3-Console/TYPO3-Console)
 with tasks to remove temporary files, e.g. to clear the »typo3temp« folder.
 
-[![Packagist](https://img.shields.io/packagist/v/webit-de/typo3-console-cleartempfiles.svg)](https://packagist.org/packages/webit-de/typo3-console-cleartempfiles/)
+[![Packagist](https://img.shields.io/packagist/v/webit-de/typo3_console_cleartempfiles.svg)](https://packagist.org/packages/webit-de/typo3_console_cleartempfiles/)
 [![TYPO3](https://img.shields.io/badge/TYPO3-extension-orange.svg)](https://extensions.typo3.org/)
 
 Requirements
@@ -16,7 +16,7 @@ Requirements
 Installation
 -------------
 
-Packagist Entry https://packagist.org/packages/webit-de/typo3-console-cleartempfiles/
+Packagist Entry https://packagist.org/packages/webit-de/typo3_console_cleartempfiles/
 
 Usage
 -----
