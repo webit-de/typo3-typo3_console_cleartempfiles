@@ -21,7 +21,9 @@ Packagist Entry https://packagist.org/packages/webit-de/typo3_console_cleartempf
 Usage
 -----
 
-To empty the »typo3temp« folder:
+Run `./vendor/bin/typo3cms` to see a list of available tasks below the »tempfiles« key.
+
+E.g. to empty the »typo3temp« folder:
 
     ./vendor/bin/typo3cms tempfiles:emptytypo3temp
 
