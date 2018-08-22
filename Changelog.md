@@ -3,6 +3,11 @@ Changelog
 
 2018-08-22 Dan Untenzu <untenzu@webit.de>
 
+  * 1.2.1
+  * BUGFIX Streamline dependencies in Extension Manager & Composer
+
+2018-08-22 Dan Untenzu <untenzu@webit.de>
+
   * 1.2.0
   * FEATURE Support TYPO3 Console 5.0
 
