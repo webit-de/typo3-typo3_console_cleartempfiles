@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2018-08-22 Dan Untenzu <untenzu@webit.de>
+
+  * 1.2.0
+  * FEATURE Support TYPO3 Console 5.0
+
 2018-02-05 Dan Untenzu <untenzu@webit.de>
 
   * 1.1.0
