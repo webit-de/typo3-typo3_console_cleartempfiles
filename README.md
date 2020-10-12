@@ -48,7 +48,7 @@ for webit! Gesellschaft für neue Medien mbH (http://www.webit.de/)
 Changelog
 ---------
 
-[./Changelog.md](./Changelog.md)
+[./Changelog.md](CHANGELOG.md)
 
 Contribution
 ------------
